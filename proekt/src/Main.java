@@ -10,7 +10,7 @@ public class Main {
 
     public static void connection(Request request){
         try {
-            Socket socket= new Socket("127.0.0.1",8080);
+            Socket socket= new Socket("127.0.0.1",8081);
             ObjectOutputStream oos=new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream ois=new ObjectInputStream(socket.getInputStream());
 
